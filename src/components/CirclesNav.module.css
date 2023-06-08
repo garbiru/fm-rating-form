@@ -1,0 +1,30 @@
+.circles {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 1rem 0;
+}
+
+.circle {
+	width: 1.725rem;
+	height: 1.725rem;
+	padding: 10px;
+	border-radius: 50%;
+	background: #252e37;
+	border: 1px solid #232832;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #b6b6b6;
+}
+
+.circle:hover {
+	background-color: #fe7611;
+	color: white;
+}
+.selected {
+	background-color: #7c8898;
+	color: white;
+}

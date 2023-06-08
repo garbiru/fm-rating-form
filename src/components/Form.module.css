@@ -1,0 +1,85 @@
+.form {
+	background: linear-gradient(#191d24, #232832);
+	border-radius: 2rem;
+	padding: 2rem;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.form * {
+	margin: 0.5rem 0;
+}
+
+.circle {
+	width: 1.5rem;
+	height: 1.5rem;
+	padding: 10px;
+	border-radius: 50%;
+	background: #252e37;
+	border: 1px solid #232832;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.iconStar {
+	width: 60%;
+	height: 60%;
+}
+
+.form h1 {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.form p {
+	color: #b6b6b6;
+}
+
+.button {
+	width: 100%;
+	padding: 0.725rem 0;
+	border: none;
+	border-radius: 1rem;
+	background-color: #fc7613;
+	color: white;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #fc7613;
+}
+
+.iconSubmitted {
+	width: 100%;
+}
+
+.formSubmitted {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background: linear-gradient(#191d24, #232832);
+	border-radius: 2rem;
+	padding: 2rem;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.formSubmitted * {
+    margin: 0.5rem 0;
+}
+
+.formSubmitted .rating{
+    color: #fc7613;
+    background-color: #262f38;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.formSubmitted p{
+    color: #b6b6b6;
+    text-align: center;
+}
